@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091F9AB61682B0AA009F0617 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091F9AB51682B0AA009F0617 /* UIKit.framework */; };
+		091F9AB81682B0AA009F0617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091F9AB71682B0AA009F0617 /* Foundation.framework */; };
+		091F9ABA1682B0AA009F0617 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091F9AB91682B0AA009F0617 /* CoreGraphics.framework */; };
+		091F9AC01682B0AA009F0617 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 091F9ABE1682B0AA009F0617 /* InfoPlist.strings */; };
+		091F9AC21682B0AA009F0617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091F9AC11682B0AA009F0617 /* main.m */; };
+		091F9AC61682B0AA009F0617 /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 091F9AC51682B0AA009F0617 /* SWAppDelegate.m */; };
+		091F9AC81682B0AA009F0617 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 091F9AC71682B0AA009F0617 /* Default.png */; };
+		091F9ACA1682B0AA009F0617 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 091F9AC91682B0AA009F0617 /* Default@2x.png */; };
+		091F9ACC1682B0AA009F0617 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 091F9ACB1682B0AA009F0617 /* Default-568h@2x.png */; };
+		091F9ACF1682B0AA009F0617 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091F9ACD1682B0AA009F0617 /* MainStoryboard.storyboard */; };
+		091F9AD21682B0AA009F0617 /* SWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091F9AD11682B0AA009F0617 /* SWViewController.m */; };
+		091F9AE71682B970009F0617 /* SWPickerPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091F9AE51682B970009F0617 /* SWPickerPopoverViewController.m */; };
+		091F9AE81682B970009F0617 /* SWPickerPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091F9AE61682B970009F0617 /* SWPickerPopoverViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		091F9AB11682B0AA009F0617 /* SWPickerPopoverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWPickerPopoverExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		091F9AB51682B0AA009F0617 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		091F9AB71682B0AA009F0617 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		091F9AB91682B0AA009F0617 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		091F9ABD1682B0AA009F0617 /* SWPickerPopoverExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWPickerPopoverExample-Info.plist"; sourceTree = "<group>"; };
+		091F9ABF1682B0AA009F0617 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		091F9AC11682B0AA009F0617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		091F9AC31682B0AA009F0617 /* SWPickerPopoverExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWPickerPopoverExample-Prefix.pch"; sourceTree = "<group>"; };
+		091F9AC41682B0AA009F0617 /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
+		091F9AC51682B0AA009F0617 /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
+		091F9AC71682B0AA009F0617 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		091F9AC91682B0AA009F0617 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		091F9ACB1682B0AA009F0617 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		091F9ACE1682B0AA009F0617 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		091F9AD01682B0AA009F0617 /* SWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWViewController.h; sourceTree = "<group>"; };
+		091F9AD11682B0AA009F0617 /* SWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWViewController.m; sourceTree = "<group>"; };
+		091F9AE41682B970009F0617 /* SWPickerPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWPickerPopoverViewController.h; path = "../../View Controllers/SWPickerPopoverViewController.h"; sourceTree = "<group>"; };
+		091F9AE51682B970009F0617 /* SWPickerPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWPickerPopoverViewController.m; path = "../../View Controllers/SWPickerPopoverViewController.m"; sourceTree = "<group>"; };
+		091F9AE61682B970009F0617 /* SWPickerPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SWPickerPopoverViewController.xib; path = "../../View Controllers/SWPickerPopoverViewController.xib"; sourceTree = "<group>"; };
+		091F9AE91682B97B009F0617 /* SWPickerPopoverDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWPickerPopoverDelegate.h; path = ../../Protocols/SWPickerPopoverDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091F9AAE1682B0AA009F0617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091F9AB61682B0AA009F0617 /* UIKit.framework in Frameworks */,
+				091F9AB81682B0AA009F0617 /* Foundation.framework in Frameworks */,
+				091F9ABA1682B0AA009F0617 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091F9AA61682B0AA009F0617 = {
+			isa = PBXGroup;
+			children = (
+				091F9ABB1682B0AA009F0617 /* SWPickerPopoverExample */,
+				091F9AB41682B0AA009F0617 /* Frameworks */,
+				091F9AB21682B0AA009F0617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		091F9AB21682B0AA009F0617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091F9AB11682B0AA009F0617 /* SWPickerPopoverExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091F9AB41682B0AA009F0617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091F9AD81682B0BB009F0617 /* SWPickerPopover */,
+				091F9AB51682B0AA009F0617 /* UIKit.framework */,
+				091F9AB71682B0AA009F0617 /* Foundation.framework */,
+				091F9AB91682B0AA009F0617 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		091F9ABB1682B0AA009F0617 /* SWPickerPopoverExample */ = {
+			isa = PBXGroup;
+			children = (
+				091F9AC41682B0AA009F0617 /* SWAppDelegate.h */,
+				091F9AC51682B0AA009F0617 /* SWAppDelegate.m */,
+				091F9ACD1682B0AA009F0617 /* MainStoryboard.storyboard */,
+				091F9AD01682B0AA009F0617 /* SWViewController.h */,
+				091F9AD11682B0AA009F0617 /* SWViewController.m */,
+				091F9ABC1682B0AA009F0617 /* Supporting Files */,
+			);
+			path = SWPickerPopoverExample;
+			sourceTree = "<group>";
+		};
+		091F9ABC1682B0AA009F0617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				091F9ABD1682B0AA009F0617 /* SWPickerPopoverExample-Info.plist */,
+				091F9ABE1682B0AA009F0617 /* InfoPlist.strings */,
+				091F9AC11682B0AA009F0617 /* main.m */,
+				091F9AC31682B0AA009F0617 /* SWPickerPopoverExample-Prefix.pch */,
+				091F9AC71682B0AA009F0617 /* Default.png */,
+				091F9AC91682B0AA009F0617 /* Default@2x.png */,
+				091F9ACB1682B0AA009F0617 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		091F9AD81682B0BB009F0617 /* SWPickerPopover */ = {
+			isa = PBXGroup;
+			children = (
+				091F9AE91682B97B009F0617 /* SWPickerPopoverDelegate.h */,
+				091F9AE41682B970009F0617 /* SWPickerPopoverViewController.h */,
+				091F9AE51682B970009F0617 /* SWPickerPopoverViewController.m */,
+				091F9AE61682B970009F0617 /* SWPickerPopoverViewController.xib */,
+			);
+			name = SWPickerPopover;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091F9AB01682B0AA009F0617 /* SWPickerPopoverExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091F9AD51682B0AA009F0617 /* Build configuration list for PBXNativeTarget "SWPickerPopoverExample" */;
+			buildPhases = (
+				091F9AAD1682B0AA009F0617 /* Sources */,
+				091F9AAE1682B0AA009F0617 /* Frameworks */,
+				091F9AAF1682B0AA009F0617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWPickerPopoverExample;
+			productName = SWPickerPopoverExample;
+			productReference = 091F9AB11682B0AA009F0617 /* SWPickerPopoverExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091F9AA81682B0AA009F0617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SW;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Spencer Williams";
+			};
+			buildConfigurationList = 091F9AAB1682B0AA009F0617 /* Build configuration list for PBXProject "SWPickerPopoverExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 091F9AA61682B0AA009F0617;
+			productRefGroup = 091F9AB21682B0AA009F0617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091F9AB01682B0AA009F0617 /* SWPickerPopoverExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091F9AAF1682B0AA009F0617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091F9AC01682B0AA009F0617 /* InfoPlist.strings in Resources */,
+				091F9AC81682B0AA009F0617 /* Default.png in Resources */,
+				091F9ACA1682B0AA009F0617 /* Default@2x.png in Resources */,
+				091F9ACC1682B0AA009F0617 /* Default-568h@2x.png in Resources */,
+				091F9ACF1682B0AA009F0617 /* MainStoryboard.storyboard in Resources */,
+				091F9AE81682B970009F0617 /* SWPickerPopoverViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091F9AAD1682B0AA009F0617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091F9AC21682B0AA009F0617 /* main.m in Sources */,
+				091F9AC61682B0AA009F0617 /* SWAppDelegate.m in Sources */,
+				091F9AD21682B0AA009F0617 /* SWViewController.m in Sources */,
+				091F9AE71682B970009F0617 /* SWPickerPopoverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		091F9ABE1682B0AA009F0617 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091F9ABF1682B0AA009F0617 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		091F9ACD1682B0AA009F0617 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091F9ACE1682B0AA009F0617 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		091F9AD31682B0AA009F0617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		091F9AD41682B0AA009F0617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		091F9AD61682B0AA009F0617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWPickerPopoverExample/SWPickerPopoverExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../*";
+				INFOPLIST_FILE = "SWPickerPopoverExample/SWPickerPopoverExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		091F9AD71682B0AA009F0617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWPickerPopoverExample/SWPickerPopoverExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../*";
+				INFOPLIST_FILE = "SWPickerPopoverExample/SWPickerPopoverExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091F9AAB1682B0AA009F0617 /* Build configuration list for PBXProject "SWPickerPopoverExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091F9AD31682B0AA009F0617 /* Debug */,
+				091F9AD41682B0AA009F0617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091F9AD51682B0AA009F0617 /* Build configuration list for PBXNativeTarget "SWPickerPopoverExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091F9AD61682B0AA009F0617 /* Debug */,
+				091F9AD71682B0AA009F0617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 091F9AA81682B0AA009F0617 /* Project object */;
+}
